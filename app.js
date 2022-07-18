@@ -43,10 +43,10 @@ $(document).ready(function(){
 
 		if(scrollPosition > 333){
 			$('nav').addClass('fixed');
-			$('.top').show();
+			$('.top').fadeIn();
 		}else{
 			$('nav').removeClass('fixed');
-			$('.top').hide();
+			$('.top').fadeOut();
 		}
 	});
 
